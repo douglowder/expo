@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "postinstall": "expo-yarn-workspaces postinstall",
+    "postinstall": "patch-package; expo-yarn-workspaces postinstall",
     "android": "export NODE_ENV=\"development\" && ./scripts/start-emulator.sh",
     "android:clean": "pushd android; rm -rf ./.gradle && ./gradlew --configure-on-demand; popd",
     "ios": "export NODE_ENV=\"development\" && ./scripts/start-simulator.sh",
@@ -109,6 +109,7 @@
     "expo-random": "~12.0.0",
     "expo-splash-screen": "~0.13.1",
     "native-component-list": "*",
+    "patch-package": "^6.4.7",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-native": "0.64.2",
