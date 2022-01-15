@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.homepage               = "https://reactnative.dev/"
   s.license                = package["license"]
   s.author                 = "Facebook, Inc. and its affiliates"
-  s.platforms              = { :ios => "10.0" }
+  s.platforms              = { :ios => "10.0", :tvos => "10.0" }
   s.compiler_flags         = folly_compiler_flags + ' -Wno-nullability-completeness'
   s.source                 = { :path => "." }
   s.source_files           = "**/*.{c,h,m,mm,cpp}"

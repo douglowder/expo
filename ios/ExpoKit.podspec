@@ -30,9 +30,9 @@ Pod::Spec.new do |s|
     ss.exclude_files = "Exponent/Supporting/**", "Exponent/Versioned/Optional/**/*.{h,m}"
 
     ss.dependency 'Amplitude', '~> 6.0.0'
-    ss.dependency 'CocoaLumberjack', '~> 3.5.3'
-    ss.dependency 'GoogleMaps', '~> 3.3'
-    ss.dependency 'Google-Maps-iOS-Utils', '~> 2.1.0'
+    #ss.dependency 'CocoaLumberjack', '~> 3.5.3'
+    #ss.dependency 'GoogleMaps', '~> 3.3'
+    #ss.dependency 'Google-Maps-iOS-Utils', '~> 2.1.0'
     ss.dependency 'lottie-ios', '~> 3.2.3'
     ss.dependency 'JKBigInteger', '0.0.6'
     ss.dependency 'MBProgressHUD', '~> 1.2.0'

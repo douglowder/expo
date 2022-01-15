@@ -54,7 +54,7 @@ Pod::Spec.new do |s|
     test_spec.platforms     = {:ios => '12.0', :tvos => '12.0'}
     test_spec.source_files = 'ios/Tests/**/*.{h,m,swift}'
     test_spec.dependency "React-CoreModules"
-    test_spec.dependency "OHHTTPStubs"
+    #test_spec.dependency "OHHTTPStubs"
   end
   
   s.default_subspec = 'Main'

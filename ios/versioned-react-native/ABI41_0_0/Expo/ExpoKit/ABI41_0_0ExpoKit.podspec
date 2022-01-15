@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.license = 'MIT'
   s.author = "650 Industries, Inc."
   s.requires_arc = true
-  s.platform = :ios, "11.0"
+  s.platforms = { :ios => "11.0", :tvos => "11.0" }
   s.default_subspec = "Core"
   s.source = { :git => "http://github.com/expo/expo.git" }
   s.xcconfig = {
@@ -75,8 +75,8 @@ Pod::Spec.new do |s|
     ss.dependency         "ABI41_0_0EXFaceDetector"
     ss.dependency         "ABI41_0_0EXFacebook"
     ss.dependency         "ABI41_0_0EXFileSystem"
-    ss.dependency         "ABI41_0_0EXFirebaseAnalytics"
-    ss.dependency         "ABI41_0_0EXFirebaseCore"
+    ss.ios.dependency         "ABI41_0_0EXFirebaseAnalytics"
+    ss.ios.dependency         "ABI41_0_0EXFirebaseCore"
     ss.dependency         "ABI41_0_0EXFont"
     ss.dependency         "EXGL_CPP"
     ss.dependency         "ABI41_0_0EXGL"
