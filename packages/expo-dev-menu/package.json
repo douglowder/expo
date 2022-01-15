@@ -57,7 +57,7 @@
     "graphql": "^14.2.1",
     "graphql-tag": "^2.10.1",
     "react": "17.0.1",
-    "react-native": "https://github.com/react-native-tvos/react-native-tvos#tvos-v0.64.2-expo",
+    "react-native": "npm:react-native-tvos@0.64.2-5",
     "url": "^0.11.0"
   }
 }

@@ -22,7 +22,7 @@
     ]
   },
   "resolutions": {
-    "react-native": "0.64.2"
+    "react-native": "npm:react-native-tvos@0.64.2-5"
   },
   "dependencies": {
     "@expo/config-types": "^43.0.1",

@@ -36,6 +36,6 @@
     "babel-preset-expo": "~8.5.1",
     "expo-module-scripts": "^2.0.0",
     "react": "17.0.1",
-    "react-native": "https://github.com/react-native-tvos/react-native-tvos#tvos-v0.64.2-expo"
+    "react-native": "npm:react-native-tvos@0.64.2-5"
   }
 }
