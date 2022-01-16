@@ -40,8 +40,20 @@
         "expo-ads-facebook",
         "expo-ads-admob",
         "expo-apple-authentication",
+        "expo-barcode-scanner",
+        "expo-camera",
+        "expo-facebook",
+        "expo-face-detector",
+        "expo-firebase-analytics",
+        "expo-firebase-core",
+        "expo-firebase-recaptcha",
+        "expo-google-app-auth",
+        "expo-google-sign-in",
+        "expo-haptics",
         "expo-updates",
-        "expo-module-template"
+        "expo-module-template",
+        "expo-screen-orientation",
+        "expo-web-browser"
       ],
       "ios": {
         "flags": {

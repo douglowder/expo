@@ -10,14 +10,14 @@
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		1A9E37CB438F778E00E1E192 /* libPods-BareExpoMain-BareExpoDetox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C15AE60626A72C73D6BBFC0C /* libPods-BareExpoMain-BareExpoDetox.a */; };
-		2D99F1F9272F4EC10067F329 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D99F1F8272F4EC10067F329 /* Assets.xcassets */; };
-		2D99F1FC272F4EC10067F329 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D99F1FA272F4EC10067F329 /* LaunchScreen.storyboard */; };
-		2D99F206272F4EC10067F329 /* BareExpo_tvOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D99F205272F4EC10067F329 /* BareExpo_tvOSTests.swift */; };
 		2D99F21D272F4F060067F329 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D99F21C272F4F060067F329 /* StoreKit.framework */; };
 		2D99F21E272F4F4A0067F329 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD59639B247F2EFA0030EECA /* AppDelegate.swift */; };
 		2D99F21F272F4F4E0067F329 /* Dispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDB247B24802C4C00F6E7AC /* Dispatch.swift */; };
+		2DB14AA32793BFE50056961D /* BareExpo-tvOS in Resources */ = {isa = PBXBuildFile; fileRef = 2DB14AA22793BFE50056961D /* BareExpo-tvOS */; };
 		31B5C869245847DF0086F49B /* notification.wav in Resources */ = {isa = PBXBuildFile; fileRef = 31B5C868245847DF0086F49B /* notification.wav */; };
+		339EDCCBCB357307BAF078D3 /* libPods-BareExpoMain-BareExpo-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 56A5D7B1FFD045F166329F93 /* libPods-BareExpoMain-BareExpo-tvOS.a */; };
 		3EE019EB80B36FC36966C9F3 /* libPods-BareExpoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A937195914F39BA8C98C34A /* libPods-BareExpoTests.a */; };
+		3F3CF651643A372469C4EF8B /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0B978EEB53D362CAAC723A /* ExpoModulesProvider.swift */; };
 		49C50F1E66EDBBEC90D1C931 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332BD73A6A3EF9EF1F36CCF4 /* ExpoModulesProvider.swift */; };
 		50F1249B27ED578403BD16C7 /* libPods-BareExpoMain-BareExpo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F299F96C1B46AB13A57F8C8 /* libPods-BareExpoMain-BareExpo.a */; };
 		B2C0264E256BDB3E008FD925 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD59639B247F2EFA0030EECA /* AppDelegate.swift */; };
@@ -41,13 +41,6 @@
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
 			remoteInfo = BareExpo;
 		};
-		2D99F202272F4EC10067F329 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2D99F1EE272F4EBF0067F329;
-			remoteInfo = "BareExpo-tvOS";
-		};
 		B2AFA7BF26B0430E001B1E5E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
@@ -60,27 +53,26 @@
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		00E356EE1AD99517003FC87E /* BareExpoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BareExpoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		124BDA829B131399ECAD2B47 /* Pods-BareExpoMain-BareExpo-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BareExpoMain-BareExpo-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-BareExpoMain-BareExpo-tvOS/Pods-BareExpoMain-BareExpo-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* Bare Expo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bare Expo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = BareExpo/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = BareExpo/Info.plist; sourceTree = "<group>"; };
 		23EE16C3D711F5CCFEFDE772 /* Pods-BareExpoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BareExpoTests.release.xcconfig"; path = "Target Support Files/Pods-BareExpoTests/Pods-BareExpoTests.release.xcconfig"; sourceTree = "<group>"; };
+		2D0B978EEB53D362CAAC723A /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-BareExpoMain-BareExpo-tvOS/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D99F1EF272F4EBF0067F329 /* BareExpo-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BareExpo-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D99F1F8272F4EC10067F329 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2D99F1FB272F4EC10067F329 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2D99F201272F4EC10067F329 /* BareExpo-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BareExpo-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D99F205272F4EC10067F329 /* BareExpo_tvOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BareExpo_tvOSTests.swift; sourceTree = "<group>"; };
-		2D99F20F272F4EC10067F329 /* BareExpo_tvOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BareExpo_tvOSUITests.swift; sourceTree = "<group>"; };
-		2D99F211272F4EC10067F329 /* BareExpo_tvOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BareExpo_tvOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2D99F21C272F4F060067F329 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS15.0.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
+		2DB14AA22793BFE50056961D /* BareExpo-tvOS */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "BareExpo-tvOS"; sourceTree = "<group>"; };
 		31B5C868245847DF0086F49B /* notification.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = notification.wav; sourceTree = "<group>"; };
 		31B7D64323A904E900CE18C0 /* Bare Expo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = "Bare Expo.entitlements"; path = "BareExpo/Bare Expo.entitlements"; sourceTree = "<group>"; };
 		332BD73A6A3EF9EF1F36CCF4 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-BareExpoMain-BareExpo/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 		3A937195914F39BA8C98C34A /* libPods-BareExpoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BareExpoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F299F96C1B46AB13A57F8C8 /* libPods-BareExpoMain-BareExpo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BareExpoMain-BareExpo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40481AD076B7F8AE3513B9C5 /* Pods-BareExpoMain-BareExpo-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BareExpoMain-BareExpo-tvOS.release.xcconfig"; path = "Target Support Files/Pods-BareExpoMain-BareExpo-tvOS/Pods-BareExpoMain-BareExpo-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		4181CD42FEE5745FEE71F23C /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-BareExpoMain-BareExpoDetox/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 		469027E32657212526A60DF7 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-BareExpoTests/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+		56A5D7B1FFD045F166329F93 /* libPods-BareExpoMain-BareExpo-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BareExpoMain-BareExpo-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B56CFEACA10492727A8DE70 /* Pods-BareExpoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BareExpoTests.debug.xcconfig"; path = "Target Support Files/Pods-BareExpoTests/Pods-BareExpoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9FCD2BD187C260D90C7E639C /* Pods-BareExpoMain-BareExpo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BareExpoMain-BareExpo.debug.xcconfig"; path = "Target Support Files/Pods-BareExpoMain-BareExpo/Pods-BareExpoMain-BareExpo.debug.xcconfig"; sourceTree = "<group>"; };
 		B2C0265D256BDB3E008FD925 /* BareExpoDetox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BareExpoDetox.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,13 +111,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D99F21D272F4F060067F329 /* StoreKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2D99F1FE272F4EC10067F329 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				339EDCCBCB357307BAF078D3 /* libPods-BareExpoMain-BareExpo-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,6 +160,8 @@
 				E6F9E5FF6E5802517E71C03C /* Pods-BareExpoMain-BareExpoDetox.release.xcconfig */,
 				5B56CFEACA10492727A8DE70 /* Pods-BareExpoTests.debug.xcconfig */,
 				23EE16C3D711F5CCFEFDE772 /* Pods-BareExpoTests.release.xcconfig */,
+				124BDA829B131399ECAD2B47 /* Pods-BareExpoMain-BareExpo-tvOS.debug.xcconfig */,
+				40481AD076B7F8AE3513B9C5 /* Pods-BareExpoMain-BareExpo-tvOS.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -189,34 +177,9 @@
 				3F299F96C1B46AB13A57F8C8 /* libPods-BareExpoMain-BareExpo.a */,
 				C15AE60626A72C73D6BBFC0C /* libPods-BareExpoMain-BareExpoDetox.a */,
 				3A937195914F39BA8C98C34A /* libPods-BareExpoTests.a */,
+				56A5D7B1FFD045F166329F93 /* libPods-BareExpoMain-BareExpo-tvOS.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		2D99F1F0272F4EBF0067F329 /* BareExpo-tvOS */ = {
-			isa = PBXGroup;
-			children = (
-				2D99F1F8272F4EC10067F329 /* Assets.xcassets */,
-				2D99F1FA272F4EC10067F329 /* LaunchScreen.storyboard */,
-			);
-			path = "BareExpo-tvOS";
-			sourceTree = "<group>";
-		};
-		2D99F204272F4EC10067F329 /* BareExpo-tvOSTests */ = {
-			isa = PBXGroup;
-			children = (
-				2D99F205272F4EC10067F329 /* BareExpo_tvOSTests.swift */,
-			);
-			path = "BareExpo-tvOSTests";
-			sourceTree = "<group>";
-		};
-		2D99F20E272F4EC10067F329 /* BareExpo-tvOSUITests */ = {
-			isa = PBXGroup;
-			children = (
-				2D99F20F272F4EC10067F329 /* BareExpo_tvOSUITests.swift */,
-				2D99F211272F4EC10067F329 /* BareExpo_tvOSUITestsLaunchTests.swift */,
-			);
-			path = "BareExpo-tvOSUITests";
 			sourceTree = "<group>";
 		};
 		4A0D436E380F66269F6A3D13 /* BareExpoDetox */ = {
@@ -245,11 +208,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				2DB14AA22793BFE50056961D /* BareExpo-tvOS */,
 				13B07FAE1A68108700A75B9A /* BareExpo */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				2D99F1F0272F4EBF0067F329 /* BareExpo-tvOS */,
-				2D99F204272F4EC10067F329 /* BareExpo-tvOSTests */,
-				2D99F20E272F4EC10067F329 /* BareExpo-tvOSUITests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				2D115E8860689707E971EF14 /* Pods */,
@@ -267,7 +228,6 @@
 				00E356EE1AD99517003FC87E /* BareExpoTests.xctest */,
 				B2C0265D256BDB3E008FD925 /* BareExpoDetox.app */,
 				2D99F1EF272F4EBF0067F329 /* BareExpo-tvOS.app */,
-				2D99F201272F4EC10067F329 /* BareExpo-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -278,8 +238,17 @@
 				0B09701FAB0A779F6BD4E0A6 /* BareExpo */,
 				4A0D436E380F66269F6A3D13 /* BareExpoDetox */,
 				5CCB4E431E8719D0AC68EA85 /* BareExpoTests */,
+				F7C04044B381A308BCAC476A /* BareExpo-tvOS */,
 			);
 			name = ExpoModulesProviders;
+			sourceTree = "<group>";
+		};
+		F7C04044B381A308BCAC476A /* BareExpo-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				2D0B978EEB53D362CAAC723A /* ExpoModulesProvider.swift */,
+			);
+			name = "BareExpo-tvOS";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -317,7 +286,6 @@
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				21646C4223F2D1BA00CB927F /* Copy Bundle Resources Conditionally */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				0A8EF4A2AF4BA61B0F6CEB46 /* [CP] Embed Pods Frameworks */,
 				4B20944053D1C8E7CE75A25E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -333,9 +301,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D99F219272F4EC10067F329 /* Build configuration list for PBXNativeTarget "BareExpo-tvOS" */;
 			buildPhases = (
+				BD3351E22F3F63805C274681 /* [CP] Check Pods Manifest.lock */,
 				2D99F1EB272F4EBF0067F329 /* Sources */,
 				2D99F1EC272F4EBF0067F329 /* Frameworks */,
 				2D99F1ED272F4EBF0067F329 /* Resources */,
+				9779B63710EDB3BFCE9FC224 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -345,24 +315,6 @@
 			productName = "BareExpo-tvOS";
 			productReference = 2D99F1EF272F4EBF0067F329 /* BareExpo-tvOS.app */;
 			productType = "com.apple.product-type.application";
-		};
-		2D99F200272F4EC10067F329 /* BareExpo-tvOSTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2D99F21A272F4EC10067F329 /* Build configuration list for PBXNativeTarget "BareExpo-tvOSTests" */;
-			buildPhases = (
-				2D99F1FD272F4EC10067F329 /* Sources */,
-				2D99F1FE272F4EC10067F329 /* Frameworks */,
-				2D99F1FF272F4EC10067F329 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2D99F203272F4EC10067F329 /* PBXTargetDependency */,
-			);
-			name = "BareExpo-tvOSTests";
-			productName = "BareExpo-tvOSTests";
-			productReference = 2D99F201272F4EC10067F329 /* BareExpo-tvOSTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		B2C02649256BDB3E008FD925 /* BareExpoDetox */ = {
 			isa = PBXNativeTarget;
@@ -376,7 +328,6 @@
 				B2C02653256BDB3E008FD925 /* Resources */,
 				B2C02657256BDB3E008FD925 /* Copy Bundle Resources Conditionally */,
 				B2C02658256BDB3E008FD925 /* Bundle React Native code and images */,
-				CA81C39807A38C302B2BEE77 /* [CP] Embed Pods Frameworks */,
 				EFC083E315DE784E5D2099D3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -411,12 +362,6 @@
 						DevelopmentTeam = P83ZV6W49Z;
 						ProvisioningStyle = Automatic;
 					};
-					2D99F200272F4EC10067F329 = {
-						CreatedOnToolsVersion = 13.1;
-						DevelopmentTeam = P83ZV6W49Z;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 2D99F1EE272F4EBF0067F329;
-					};
 					B2C02649256BDB3E008FD925 = {
 						DevelopmentTeam = C8D8QTF339;
 					};
@@ -440,7 +385,6 @@
 				B2C02649256BDB3E008FD925 /* BareExpoDetox */,
 				00E356ED1AD99517003FC87E /* BareExpoTests */,
 				2D99F1EE272F4EBF0067F329 /* BareExpo-tvOS */,
-				2D99F200272F4EC10067F329 /* BareExpo-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -457,6 +401,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DB14AA32793BFE50056961D /* BareExpo-tvOS in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 				31B5C869245847DF0086F49B /* notification.wav in Resources */,
@@ -464,15 +409,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		2D99F1ED272F4EBF0067F329 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2D99F1FC272F4EC10067F329 /* LaunchScreen.storyboard in Resources */,
-				2D99F1F9272F4EC10067F329 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2D99F1FF272F4EC10067F329 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -505,24 +441,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\nif [[ \"$CONFIGURATION\" = *Debug* ]]; then\n  export SKIP_BUNDLING=1\nfi\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
-		};
-		0A8EF4A2AF4BA61B0F6CEB46 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BareExpoMain-BareExpo/Pods-BareExpoMain-BareExpo-frameworks.sh",
-				"${PODS_ROOT}/hermes-engine/destroot/Library/Frameworks/iphoneos/hermes.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/hermes.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BareExpoMain-BareExpo/Pods-BareExpoMain-BareExpo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 		21646C4123F2D18200CB927F /* Generate Dynamic Macros */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -590,21 +508,15 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-BareExpoMain-BareExpo/Pods-BareExpoMain-BareExpo-resources.sh",
 				"${PODS_ROOT}/Amplitude/Sources/Amplitude/ComodoRsaDomainValidationCA.der",
-				"${PODS_CONFIGURATION_BUILD_DIR}/EXConstants/EXConstants.bundle",
-				"${PODS_ROOT}/FBSDKCoreKit/FacebookSDKStrings.bundle",
-				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/MLKitFaceDetection/GoogleMVFaceDetectorResources.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/expo-dev-launcher/EXDevLauncher.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/expo-dev-menu/EXDevMenu.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/EXConstants-iOS/EXConstants.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core-iOS/AccessibilityResources.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/expo-dev-launcher-iOS/EXDevLauncher.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/expo-dev-menu-iOS/EXDevMenu.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ComodoRsaDomainValidationCA.der",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EXConstants.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FacebookSDKStrings.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMVFaceDetectorResources.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EXDevLauncher.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EXDevMenu.bundle",
@@ -634,6 +546,32 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9779B63710EDB3BFCE9FC224 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BareExpoMain-BareExpo-tvOS/Pods-BareExpoMain-BareExpo-tvOS-resources.sh",
+				"${PODS_ROOT}/Amplitude/Sources/Amplitude/ComodoRsaDomainValidationCA.der",
+				"${PODS_CONFIGURATION_BUILD_DIR}/EXConstants-tvOS/EXConstants.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core-tvOS/AccessibilityResources.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/expo-dev-launcher-tvOS/EXDevLauncher.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/expo-dev-menu-tvOS/EXDevMenu.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ComodoRsaDomainValidationCA.der",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EXConstants.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EXDevLauncher.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EXDevMenu.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BareExpoMain-BareExpo-tvOS/Pods-BareExpoMain-BareExpo-tvOS-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B2C0264B256BDB3E008FD925 /* Generate Dynamic Macros */ = {
@@ -705,22 +643,26 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\nif [[ \"$CONFIGURATION\" = *Debug* ]]; then\n  export SKIP_BUNDLING=1\nfi\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		CA81C39807A38C302B2BEE77 /* [CP] Embed Pods Frameworks */ = {
+		BD3351E22F3F63805C274681 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BareExpoMain-BareExpoDetox/Pods-BareExpoMain-BareExpoDetox-frameworks.sh",
-				"${PODS_ROOT}/hermes-engine/destroot/Library/Frameworks/iphoneos/hermes.framework",
+			inputFileListPaths = (
 			);
-			name = "[CP] Embed Pods Frameworks";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/hermes.framework",
+				"$(DERIVED_FILE_DIR)/Pods-BareExpoMain-BareExpo-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BareExpoMain-BareExpoDetox/Pods-BareExpoMain-BareExpoDetox-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D20F23D269A2BBFDD6C08C11 /* [CP] Check Pods Manifest.lock */ = {
@@ -753,21 +695,15 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-BareExpoMain-BareExpoDetox/Pods-BareExpoMain-BareExpoDetox-resources.sh",
 				"${PODS_ROOT}/Amplitude/Sources/Amplitude/ComodoRsaDomainValidationCA.der",
-				"${PODS_CONFIGURATION_BUILD_DIR}/EXConstants/EXConstants.bundle",
-				"${PODS_ROOT}/FBSDKCoreKit/FacebookSDKStrings.bundle",
-				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/MLKitFaceDetection/GoogleMVFaceDetectorResources.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/expo-dev-launcher/EXDevLauncher.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/expo-dev-menu/EXDevMenu.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/EXConstants-iOS/EXConstants.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core-iOS/AccessibilityResources.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/expo-dev-launcher-iOS/EXDevLauncher.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/expo-dev-menu-iOS/EXDevMenu.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ComodoRsaDomainValidationCA.der",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EXConstants.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FacebookSDKStrings.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMVFaceDetectorResources.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EXDevLauncher.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EXDevMenu.bundle",
@@ -823,14 +759,7 @@
 			files = (
 				2D99F21E272F4F4A0067F329 /* AppDelegate.swift in Sources */,
 				2D99F21F272F4F4E0067F329 /* Dispatch.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2D99F1FD272F4EC10067F329 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2D99F206272F4EC10067F329 /* BareExpo_tvOSTests.swift in Sources */,
+				3F3CF651643A372469C4EF8B /* ExpoModulesProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -852,11 +781,6 @@
 			target = 13B07F861A680F5B00A75B9A /* BareExpo */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
-		2D99F203272F4EC10067F329 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2D99F1EE272F4EBF0067F329 /* BareExpo-tvOS */;
-			targetProxy = 2D99F202272F4EC10067F329 /* PBXContainerItemProxy */;
-		};
 		B2AFA7C026B0430E001B1E5E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B2C02649256BDB3E008FD925 /* BareExpoDetox */;
@@ -872,14 +796,6 @@
 			);
 			name = LaunchScreen.xib;
 			path = BareExpo;
-			sourceTree = "<group>";
-		};
-		2D99F1FA272F4EC10067F329 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2D99F1FB272F4EC10067F329 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -1006,6 +922,7 @@
 		};
 		2D99F213272F4EC10067F329 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 124BDA829B131399ECAD2B47 /* Pods-BareExpoMain-BareExpo-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1043,6 +960,7 @@
 		};
 		2D99F214272F4EC10067F329 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40481AD076B7F8AE3513B9C5 /* Pods-BareExpoMain-BareExpo-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1073,75 +991,6 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 15.0;
-			};
-			name = Release;
-		};
-		2D99F215272F4EC10067F329 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = P83ZV6W49Z;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MARKETING_VERSION = 1.0;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.expo.Payments.BareExpo-tvOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 3;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BareExpo-tvOS.app/BareExpo-tvOS";
-				TVOS_DEPLOYMENT_TARGET = 15.0;
-			};
-			name = Debug;
-		};
-		2D99F216272F4EC10067F329 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_STYLE = Automatic;
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = P83ZV6W49Z;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MARKETING_VERSION = 1.0;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.expo.Payments.BareExpo-tvOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 3;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BareExpo-tvOS.app/BareExpo-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 15.0;
 			};
 			name = Release;
@@ -1177,7 +1026,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 i386";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -1232,7 +1081,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 i386";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
@@ -1339,15 +1188,6 @@
 			buildConfigurations = (
 				2D99F213272F4EC10067F329 /* Debug */,
 				2D99F214272F4EC10067F329 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2D99F21A272F4EC10067F329 /* Build configuration list for PBXNativeTarget "BareExpo-tvOSTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2D99F215272F4EC10067F329 /* Debug */,
-				2D99F216272F4EC10067F329 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

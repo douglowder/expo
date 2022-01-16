@@ -12,6 +12,8 @@ require File.join(File.dirname(`node --print "require.resolve('expo/package.json
 require 'json'
 podfile_properties = JSON.parse(File.read('./podfile.properties.json')) rescue {}
 
+use_modular_headers!
+
 abstract_target 'BareExpoMain' do
   use_expo_modules!
 
