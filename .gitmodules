@@ -5,6 +5,6 @@
   update = checkout
 [submodule "react-native-lab/react-native"]
   path = react-native-lab/react-native
-  url = git@github.com:expo/react-native.git
-  branch = exp-latest
+  url = git@github.com:react-native-tvos/react-native-tvos.git
+  branch = tvos-v0.68.2-expo
   update = checkout
