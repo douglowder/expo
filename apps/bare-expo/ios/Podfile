@@ -3,7 +3,6 @@ install! 'cocoapods',
          :incremental_installation => true,
          :deterministic_uuids => false
 source 'https://cdn.cocoapods.org/'
-platform :ios, '12.0'
 inhibit_all_warnings!
 
 # Import the auto-linking packages
@@ -13,6 +12,8 @@ require File.join(File.dirname(`node --print "require.resolve('expo/package.json
 
 require 'json'
 podfile_properties = JSON.parse(File.read('./Podfile.properties.json')) rescue {}
+
+use_modular_headers!
 
 abstract_target 'BareExpoMain' do
   pod 'expo-dev-menu', path: '../../../packages/expo-dev-menu', :testspecs => ['Tests', 'UITests']
@@ -31,7 +32,7 @@ abstract_target 'BareExpoMain' do
 
   use_react_native!(
     :path => config[:reactNativePath],
-    :hermes_enabled => flags[:hermes_enabled] || podfile_properties['expo.jsEngine'] == 'hermes',
+    :hermes_enabled => false,
     :fabric_enabled => flags[:fabric_enabled],
     # An absolute path to your application root.
     :app_path => "#{Dir.pwd}/.."
@@ -67,6 +68,7 @@ abstract_target 'BareExpoMain' do
   end
 
   target 'BareExpo' do
+    platform :ios, '12.0'
     # Enables Flipper.
 
     # Uncomment to opt-in to using Flipper
@@ -76,12 +78,15 @@ abstract_target 'BareExpoMain' do
     # end
   end
 
-  target 'BareExpoDetox' do
+  target 'BareExpo-tvOS' do
+    platform :tvos, '12.0'
   end
 
   target 'BareExpoTests' do
+    platform :ios, '12.0'
     inherit! :search_paths
 
     pod 'Nimble', :podspec => './../../../ios/Nimble.podspec'
   end
+
 end
