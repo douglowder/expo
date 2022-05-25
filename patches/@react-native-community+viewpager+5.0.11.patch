@@ -1,0 +1,13 @@
+diff --git a/node_modules/@react-native-community/viewpager/react-native-viewpager.podspec b/node_modules/@react-native-community/viewpager/react-native-viewpager.podspec
+index d7c8477..12f5ae3 100644
+--- a/node_modules/@react-native-community/viewpager/react-native-viewpager.podspec
++++ b/node_modules/@react-native-community/viewpager/react-native-viewpager.podspec
+@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
+   s.authors      = package['author']
+   s.homepage     = package['homepage']
+ 
+-  s.platform     = :ios, "9.0"
++  s.platforms    = { :ios => "9.0", :tvos => "12.0" }
+   s.source       = { :git => "https://github.com/react-native-community/react-native-viewpager.git", :tag => "v#{s.version}" }
+   s.source_files  = "ios/**/*.{h,m}"
+   s.requires_arc = true

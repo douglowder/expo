@@ -1,0 +1,13 @@
+diff --git a/node_modules/@react-native-picker/picker/RNCPicker.podspec b/node_modules/@react-native-picker/picker/RNCPicker.podspec
+index c6da0d7..305434d 100644
+--- a/node_modules/@react-native-picker/picker/RNCPicker.podspec
++++ b/node_modules/@react-native-picker/picker/RNCPicker.podspec
+@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
+ 
+   s.authors      = package['author']
+   s.homepage     = package['homepage']
+-  s.platforms    = { :ios => "9.0", :osx => "10.14" }
++  s.platforms    = { :ios => "9.0", :osx => "10.14", :tvos => "12.0" }
+ 
+   s.source       = { :git => "https://github.com/react-native-picker/picker.git", :tag => "v#{s.version}" }
+   s.ios.source_files  = "ios/**/*.{h,m}"

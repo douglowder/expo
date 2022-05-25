@@ -1,0 +1,16 @@
+diff --git a/node_modules/@react-native-community/datetimepicker/RNDateTimePicker.podspec b/node_modules/@react-native-community/datetimepicker/RNDateTimePicker.podspec
+index ae7cb4d..9891e70 100644
+--- a/node_modules/@react-native-community/datetimepicker/RNDateTimePicker.podspec
++++ b/node_modules/@react-native-community/datetimepicker/RNDateTimePicker.podspec
+@@ -10,9 +10,9 @@ Pod::Spec.new do |s|
+   s.license      = package['license']
+   s.author       = package['author']
+   s.homepage     = package['homepage']
+-  s.platform     = :ios, "11.0"
++  s.platforms    = { :ios => "11.0", :tvos => "12.0" }
+   s.source       = { :git => "https://github.com/react-native-community/datetimepicker", :tag => "v#{s.version}" }
+-  s.source_files = "ios/*.{h,m}"
++  s.ios.source_files = "ios/*.{h,m}"
+   s.requires_arc = true
+ 
+   s.dependency "React-Core"

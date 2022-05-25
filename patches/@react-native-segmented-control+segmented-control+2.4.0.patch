@@ -1,0 +1,17 @@
+diff --git a/node_modules/@react-native-segmented-control/segmented-control/react-native-segmented-control.podspec b/node_modules/@react-native-segmented-control/segmented-control/react-native-segmented-control.podspec
+index 41d7061..87da27b 100644
+--- a/node_modules/@react-native-segmented-control/segmented-control/react-native-segmented-control.podspec
++++ b/node_modules/@react-native-segmented-control/segmented-control/react-native-segmented-control.podspec
+@@ -10,10 +10,10 @@ Pod::Spec.new do |s|
+ 
+   s.authors      = package['author']
+   s.homepage     = package['homepage']
+-  s.platform     = :ios, "9.0"
++  s.platforms    = { :ios => "9.0", :tvos => "12.0" }
+ 
+   s.source       = { :git => "https://github.com/react-native-segmented-control/segmented-control.git", :tag => "#{s.version}" }
+-  s.source_files  = "ios/**/*.{h,m}"
++  s.ios.source_files  = "ios/**/*.{h,m}"
+ 
+   s.dependency 'React-Core'
+ end
