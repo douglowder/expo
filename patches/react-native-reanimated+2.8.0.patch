@@ -1,0 +1,17 @@
+diff --git a/node_modules/react-native-reanimated/RNReanimated.podspec b/node_modules/react-native-reanimated/RNReanimated.podspec
+index 33ea1c6..351fba0 100644
+--- a/node_modules/react-native-reanimated/RNReanimated.podspec
++++ b/node_modules/react-native-reanimated/RNReanimated.podspec
+@@ -93,9 +93,9 @@ Pod::Spec.new do |s|
+   s.dependency 'React-Core'
+   s.dependency 'React-CoreModules'
+   s.dependency 'React-Core/DevSupport'
+-  if !reactTargetTvOS
+-    s.dependency 'React-RCTActionSheet'
+-  end
++#  if !reactTargetTvOS
++#    s.dependency 'React-RCTActionSheet'
++#  end
+   s.dependency 'React-RCTNetwork'
+   s.dependency 'React-RCTAnimation'
+   s.dependency 'React-RCTLinking'
